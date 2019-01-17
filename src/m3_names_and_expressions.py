@@ -46,7 +46,7 @@ v2 = 4*math.cos(2)
 print(math.sqrt(v1 + v2))
 
 ###############################################################################
-# TODO: 4.
+# DONE: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -55,9 +55,11 @@ print(math.sqrt(v1 + v2))
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
+print(math.sqrt(2))
+print(2**0.5)
 
 ###############################################################################
-# TODO: 5.
+# DONE: 5.
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number").
@@ -97,9 +99,22 @@ print(math.sqrt(v1 + v2))
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
 
+print(type(3.14))
+print(type("hellow"))
+print(type('hello'))
+print(type('a b c'))
+print(type(3+3))
+print(type("3" + "3"))
+print(type(2**100))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
+
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #

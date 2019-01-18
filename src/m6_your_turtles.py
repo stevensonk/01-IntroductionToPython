@@ -33,6 +33,7 @@ import rosegraphics as rg
 
 window = rg.TurtleWindow()
 lexi = rg.SimpleTurtle('turtle')
+lexi.speed = 200
 lexi.pen = rg.Pen('pink',3)
 
 for k in range(100):
